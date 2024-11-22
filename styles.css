@@ -40,9 +40,20 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#sites ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sites ul li {
+    margin: 5px 0;
+}
+
 footer {
     text-align: center;
     padding: 10px;
     background-color: #007BFF;
     color: white;
 }
+
+
