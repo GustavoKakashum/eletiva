@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    color: #FFC0CB;
+    background-color: #000000; /* Fundo preto */
+    color: #FFC0CB; /* Texto rosa */
 }
 
 header {
-    background-color: #FF0000;
-    color: #FFC0CB;
+    background-color: #FF0000; /* Vermelho */
+    color: #FFC0CB; /* Rosa */
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #FFC0CB;
+    color: #FFC0CB; /* Rosa */
     text-decoration: none;
 }
 
@@ -35,9 +35,10 @@ main {
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background: #1A1A1A;
-    color: #FFC0CB;
+    background: #1A1A1A; /* Cinza escuro para contraste */
+    color: #FFC0CB; /* Rosa */
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.5); /* Sombra vermelha */
 }
 
 #sites ul {
@@ -52,6 +53,6 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #FF0000;
-    color: #FFC0CB;
+    background-color: #FF0000; /* Vermelho */
+    color: #FFC0CB; /* Rosa */
 }
