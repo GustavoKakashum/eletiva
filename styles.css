@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #000000;
     color: #FFC0CB;
-    font-size: 28px; /* Tamanho base maior */
+    font-size: 18px;
 }
 
 header {
@@ -12,7 +12,8 @@ header {
     color: #FFC0CB;
     padding: 20px;
     text-align: center;
-    font-size: 34px; /* Título maior */
+    font-size: 24px;
+    border: 2px solid #FF0000; /* Linha vermelha ao redor */
 }
 
 header nav ul li {
@@ -23,11 +24,12 @@ header nav ul li {
 header nav ul li a {
     color: #FFC0CB;
     text-decoration: none;
-    font-size: 30px; /* Links maiores */
+    font-size: 20px;
 }
 
 main {
     padding: 20px;
+    border: 2px solid #FF0000; /* Linha vermelha ao redor */
 }
 
 section {
@@ -36,12 +38,15 @@ section {
     background: #1A1A1A;
     color: #FFC0CB;
     border-radius: 8px;
-    font-size: 30px; /* Texto principal maior */
+    font-size: 20px;
+    border: 2px solid #FF0000; /* Linha vermelha ao redor */
 }
 
 #sites ul li {
     margin: 5px 0;
-    font-size: 28px; /* Itens da lista maiores */
+    font-size: 18px;
+    border: 2px solid #FF0000; /* Linha vermelha ao redor de itens */
+    padding: 5px; /* Espaço interno para melhor aparência */
 }
 
 footer {
@@ -49,5 +54,6 @@ footer {
     padding: 10px;
     background-color: #FF0000;
     color: #FFC0CB;
-    font-size: 28px; /* Rodapé maior */
+    font-size: 18px;
+    border: 2px solid #FF0000; /* Linha vermelha ao redor */
 }
