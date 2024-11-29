@@ -2,20 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Fundo preto */
-    color: #FFC0CB; /* Texto rosa */
+    background-color: #000000;
+    color: #FFC0CB;
+    font-size: 18px; /* Tamanho base maior */
 }
 
 header {
-    background-color: #FF0000; /* Vermelho */
-    color: #FFC0CB; /* Rosa */
+    background-color: #FF0000;
+    color: #FFC0CB;
     padding: 20px;
     text-align: center;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
+    font-size: 24px; /* Título maior */
 }
 
 header nav ul li {
@@ -24,8 +21,9 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #FFC0CB; /* Rosa */
+    color: #FFC0CB;
     text-decoration: none;
+    font-size: 20px; /* Links maiores */
 }
 
 main {
@@ -35,24 +33,21 @@ main {
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background: #1A1A1A; /* Cinza escuro para contraste */
-    color: #FFC0CB; /* Rosa */
+    background: #1A1A1A;
+    color: #FFC0CB;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.5); /* Sombra vermelha */
-}
-
-#sites ul {
-    list-style: none;
-    padding: 0;
+    font-size: 20px; /* Texto principal maior */
 }
 
 #sites ul li {
     margin: 5px 0;
+    font-size: 18px; /* Itens da lista maiores */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #FF0000; /* Vermelho */
-    color: #FFC0CB; /* Rosa */
+    background-color: #FF0000;
+    color: #FFC0CB;
+    font-size: 18px; /* Rodapé maior */
 }
